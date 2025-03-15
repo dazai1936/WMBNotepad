@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Memo {
-
-
     String Title;
     String Date;
     String Content;
@@ -11,9 +9,10 @@ public class Memo {
         //다시 스캔을 불러와 내용 작성
     }
     void read() {
-        System.out.println(m.Content);
+        System.out.println(Content);
     }
     void edit() {
+        return Content;
         //기존의 내용을 불러온 상태에서 수정이 가능해야함
     }
     void delete() {}
