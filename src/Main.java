@@ -11,7 +11,7 @@ public class Main{
         }
         else
         {
-            m.write();
+            m.write(sc);
         }
     }
 }
